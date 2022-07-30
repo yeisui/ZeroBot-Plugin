@@ -25,15 +25,15 @@ import (
 	//                          vvvvvvvvvvvvvv                          //
 	//                               vvvv                               //
 
-	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/chat" // 基础词库
+	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/chat"  基础词库
 
-	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/sleep_manage" // 统计睡眠时间
+	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/sleep_manage"  统计睡眠时间
 
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/atri" // ATRI词库
 
-	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/manager" // 群管
+	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/manager"  群管
 
-	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/thesaurus" // 词典匹配回复
+	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/thesaurus"  词典匹配回复
 
 	_ "github.com/FloatTech/zbputils/job" // 定时指令触发器
 
@@ -76,7 +76,7 @@ import (
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/fortune"        运势
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/funny"          笑话
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/genshin"       // 原神抽卡
-	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/gif"           // 制图
+	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/gif"            制图
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/github"        // 搜索GitHub仓库
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/guessmusic"     猜歌
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/hs"            // 炉石
@@ -96,7 +96,7 @@ import (
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/nihongo"       // 日语语法学习
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/novel"         // 铅笔小说网搜索
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/nsfw"          // nsfw图片识别
-	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/omikuji"       // 浅草寺求签
+	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/omikuji"        浅草寺求签
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/qqwife"         一群一天一夫一妻制群老婆
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/reborn"         投胎
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/runcode"       // 在线运行代码
@@ -171,7 +171,7 @@ func init() {
 	// 直接写死 URL 时，请更改下面第二个参数
 	url := flag.String("u", "ws://127.0.0.1:6700", "Set Url of WSClient.")
 	// 默认昵称
-	adana ：= 标志。String（“n”， “j”猪八"设置默认昵称"。)
+	adana ：= 标志。String（“n”， “猪八", "设置默认昵称.")
 	prefix := flag.String("p", "/", "Set command prefix.")
 	runcfg := flag.String("c", "", "Run from config file.")
 	save := flag.String("s", "", "Save default config to file and exit.")
